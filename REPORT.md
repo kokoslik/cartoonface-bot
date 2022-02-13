@@ -29,7 +29,24 @@
 
 В итоге, по субъективным оценкам, вариант с MSELoss был выбран как лучший.
 
+#### Лучшие результаты на тестовой выборке
+|Horse -> Zebra|Zebra->Horse|
+|--------------|------------|
+|![](results/horses_lsgan/goodZebras/1.jpg)|![](results/horses_lsgan/goodHorses/1.jpg)|
+|![](results/horses_lsgan/goodZebras/2.jpg)|![](results/horses_lsgan/goodHorses/2.jpg)|
+|![](results/horses_lsgan/goodZebras/3.jpg)|![](results/horses_lsgan/goodHorses/3.jpg)|
+|![](results/horses_lsgan/goodZebras/4.jpg)|![](results/horses_lsgan/goodHorses/4.jpg)|
+
+#### Худшие результаты на тестовой выборке
+|Horse -> Zebra|Zebra->Horse|
+|--------------|------------|
+|![](results/horses_lsgan/badZebras/1.jpg)|![](results/horses_lsgan/badHorses/1.jpg)|
+|![](results/horses_lsgan/badZebras/2.jpg)|![](results/horses_lsgan/badHorses/2.jpg)|
+|![](results/horses_lsgan/badZebras/3.jpg)|![](results/horses_lsgan/badHorses/3.jpg)|
+|![](results/horses_lsgan/badZebras/4.jpg)|![](results/horses_lsgan/badHorses/4.jpg)|
+
 Ссылка на результаты обучения с MSELoss
+
 Ссылка на результаты обучения с BCEWithLogitsLoss
 
 ### Датасет faces2k
@@ -45,6 +62,22 @@
 |Result|Loss|
 |------|----|
 |![Result](results/faces2k/199_result.jpg)|![Result for BCEWithLogitsLoss](results/faces2k/199_loss.jpg)|
+
+#### Лучшие результаты на тестовой выборке
+|Face -> Cartoon|Cartoon->Face|
+|--------------|------------|
+|![](results/faces2k/goodCartoons/1.jpg)|![](results/faces2k/goodFaces/1.jpg)|
+|![](results/faces2k/goodCartoons/2.jpg)|![](results/faces2k/goodFaces/2.jpg)|
+|![](results/faces2k/goodCartoons/3.jpg)|![](results/faces2k/goodFaces/3.jpg)|
+|![](results/faces2k/goodCartoons/4.jpg)|![](results/faces2k/goodFaces/4.jpg)|
+
+#### Худшие результаты на тестовой выборке
+|Face -> Cartoon|Cartoon->Face|
+|--------------|------------|
+|![](results/faces2k/badCartoons/1.jpg)|![](results/faces2k/badFaces/1.jpg)|
+|![](results/faces2k/badCartoons/2.jpg)|![](results/faces2k/badFaces/2.jpg)|
+|![](results/faces2k/badCartoons/3.jpg)|![](results/faces2k/badFaces/3.jpg)|
+|![](results/faces2k/badCartoons/4.jpg)|![](results/faces2k/badFaces/4.jpg)|
 
 Ссылка на результаты обучения
 
