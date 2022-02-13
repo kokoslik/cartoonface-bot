@@ -45,9 +45,9 @@
 |![](results/horses_lsgan/badZebras/3.jpg)|![](results/horses_lsgan/badHorses/3.jpg)|
 |![](results/horses_lsgan/badZebras/4.jpg)|![](results/horses_lsgan/badHorses/4.jpg)|
 
-Ссылка на результаты обучения с MSELoss
+[Ссылка на результаты обучения с MSELoss](https://disk.yandex.ru/d/6gAcsqjiOVxkDw)
 
-Ссылка на результаты обучения с BCEWithLogitsLoss
+[Ссылка на результаты обучения с BCEWithLogitsLoss](https://disk.yandex.ru/d/sZVrJr8UprHikw)
 
 ### Датасет faces2k
 **Цель:** сделать лицо человека "мультяшным".
@@ -56,6 +56,8 @@
 2. [Cartoon Set dataset](https://google.github.io/cartoonset/index.html)
 
 Из каждого датасета взято по 2000 тренировочных и 200 тестовых изображений.
+
+[Ссылка на датасет](https://disk.yandex.ru/d/PDjvBXxpyZzthA)
 
 Ниже представлен график лоссов и результат на тестовой выборке после 200 эпох обучения с learning rate 0.0001
 
@@ -79,7 +81,7 @@
 |![](results/faces2k/badCartoons/3.jpg)|![](results/faces2k/badFaces/3.jpg)|
 |![](results/faces2k/badCartoons/4.jpg)|![](results/faces2k/badFaces/4.jpg)|
 
-Ссылка на результаты обучения
+[Ссылка на результаты обучения](https://disk.yandex.ru/d/hupte0YPwjbo3g)
 
 ## Бот
 Для удобного использования натренированной модели был написан [бот](src/bot.py) в Telegram.
