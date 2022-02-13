@@ -9,4 +9,4 @@ To run training, see [src/train.ipynb](src/train.ipynb).
 
 To test models, go to [src/test.ipynb](src/test.ipynb).
 
-Get faces2k dataset and training results [here](src).
+Get faces2k dataset and training results [here](https://disk.yandex.ru/d/vsNxAX7ATiAgeg).
